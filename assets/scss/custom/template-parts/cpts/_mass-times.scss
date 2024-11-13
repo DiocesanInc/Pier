@@ -1,0 +1,21 @@
+// main: ../../../../../style.scss
+.mass-times-container {
+  .mass-times-section {
+    width: 100%;
+  }
+  .mass-times-mid-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .mass-times-times {
+    display: flex;
+    flex-direction: column;
+  }
+  .mass-time {
+    display: flex;
+  }
+  &.limit-width {
+    width: 40%;
+  }
+}
