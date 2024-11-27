@@ -58,9 +58,9 @@ require get_template_directory() . "/update-checker/plugin-update-checker.php";
 use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
 
 $myUpdateChecker = PucFactory::buildUpdateChecker(
-    'https://github.com/DiocesanInc/Patrick-2',
+    'https://github.com/DiocesanInc/Pier',
     __FILE__,
-    'patrick'
+    'pier'
 );
 
 //Set the branch that contains the stable release.
